@@ -1,0 +1,110 @@
+body{
+    color: white;
+}
+.violet{
+    background: linear-gradient(45deg, #29116d, #5c4789 90%);
+}
+
+.violet img{
+    margin-top: 95px;
+    margin-bottom: 50px;
+}
+.overlay{
+    background-image: linear-gradient(45deg, #29116d, #5c4789 90%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+.violet-mid{
+    position: relative;
+    background-image: url('Assets/image-we-work.jpg');
+    background-size: 100%  100%;
+   
+    -webkit-clip-path: polygon(0 18%, 100% 7%, 100% 90%, 0 99%);
+    clip-path: polygon(0 18%, 100% 7%, 100% 90%, 0 99%);
+    margin-bottom: 100px;
+}
+.violet-last{
+    background: linear-gradient(45deg, #29116d, #5c4789 90%);
+    clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
+}
+.parallelogram{
+    padding-top: 100px;
+}
+.violet-mid .paragraf{
+    margin: 25px 0 35px 0;
+}
+.heading{
+    font-size: 44px;
+}
+.paragraf:not(:nth-child(1)){
+    margin-top: 35px;
+    margin-bottom: 95px;
+    font-size: 22px;
+}
+.beforLogos{
+    color: black;
+    font-size: 28px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.logo{
+    width: 90px;
+    height: 70px;
+}
+.logo-big{
+    width: 70px;
+    height: 50px;
+}
+.logo:first-child, .logo-big{
+    margin-right: 50px;
+}
+.violet-mid .inputs{
+    margin-bottom:35px;
+    padding-bottom: 50px;
+}
+.violet-last .inputs{
+    margin-bottom:30px;
+    margin-top: 35px;
+}
+input[type="button"]{
+    background: #296CFC;    
+}
+input[type="email"]{
+    width: 300px;    
+    color: black;   
+}
+input{
+    outline: none;
+    border: none;
+    margin: -3px;
+    padding: 10px 20px;
+}
+.section{
+    color: black;
+    margin-bottom: 100px;
+}
+.violet-last .paragraf{
+    font-size: 30px;
+}
+.section .paragraf{
+    margin-bottom: 0;
+    font-size: 22px;
+}
+.hidden {
+    display: none;
+}
+.first {
+    /* position: absolute; */
+    height: 70px;
+}
+.second {
+    /* position: absolute; */
+    height: 70px;
+}
+
