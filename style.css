@@ -100,11 +100,9 @@ input{
     display: none;
 }
 .first {
-    position: absolute;
     height: 70px;
 }
 .second {
-    position: absolute;
     height: 70px;
 }
 @media only screen and (max-width: 768px) {
@@ -116,7 +114,34 @@ input{
         text-align: center!important;
         padding: 0 5px;
     }
+    
+    .section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section img{
+        width: 300px;
+    }
     .section .paragraf{
+        width: 300px;
+        text-align: center;
         font-size: 18px;
     }
-  }
+    #first>img:not(.bbb):not(.walmart){
+        display: none;
+    }
+}
+
+    @media screen and  (max-width: 320px) { 
+        .violet-last .paragraf{
+            font-size:22px;
+        }
+        .violet-last .paragraf{
+            font-size:22px;
+        }
+        .heading{
+            font-size: 28px;
+        }
+    }
