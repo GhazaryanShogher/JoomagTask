@@ -1,5 +1,5 @@
-let first = document.getElementById("first");
-let second = document.getElementById("second")
+var first = document.getElementById("first");
+var second = document.getElementById("second");
 function fadeInFadeOut () {
     if (second.className === "hidden") {
         second.classList.remove("hidden");

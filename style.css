@@ -24,10 +24,10 @@ body{
     position: relative;
     background-image: url('Assets/image-we-work.jpg');
     background-size: 100%  100%;
-   
     -webkit-clip-path: polygon(0 18%, 100% 7%, 100% 90%, 0 99%);
     clip-path: polygon(0 18%, 100% 7%, 100% 90%, 0 99%);
-    margin-bottom: 100px;
+    margin: 100px 0;
+
 }
 .violet-last{
     background: linear-gradient(45deg, #29116d, #5c4789 90%);
@@ -96,14 +96,28 @@ input{
     margin-bottom: 0;
     font-size: 22px;
 }
+.container-logo{
+    position: relative;
+}
 .hidden {
-    display: none;
+    opacity: 0;
+    transition: opacity 2s linear;
 }
 .first {
+    position: absolute;
+    top:190px;
     height: 70px;
 }
 .second {
+    position: absolute;
+    top:190px;
     height: 70px;
+}
+
+@media screen and (min-width: 768) and (max-width: 992px) { 
+    input[type="email"]{
+        width: 270px; 
+    }
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -130,6 +144,9 @@ input{
         font-size: 18px;
     }
     #first>img:not(.bbb):not(.walmart){
+        display: none;
+    }
+    #second>img:not(.jll):not(.marriott){
         display: none;
     }
 }
